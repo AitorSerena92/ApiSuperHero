@@ -1,0 +1,210 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://www.wallpapertip.com/wmimgs/92-924345_grunge-wallpaper-texture-wallpapers-background-with-asphalt-hd.jpg");
+    overflow-x: hidden;
+}
+
+
+
+/* NAV */
+
+#navbarScroll ul, a{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white!important;
+}
+#navHeroTop {
+    margin: 0;
+    padding: 0;
+}
+#navHeroTop h3{
+    margin-left: 20px;
+}
+
+/* CARROUSEL */
+
+#carouselHero{
+    margin-top: 110px;
+    width: 90%;
+    
+}
+.carousel-inner {
+    max-height: 260px;
+    width: 90%;
+    border: 4px solid black;
+}
+
+
+.allSearchHero, .allSearchHero h3{
+    position: sticky;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    width: 70%;
+}
+#searchHeroButton, #searchHeroInput{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    width: 80%;
+}
+
+.containerSearch{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 30px 5px 40px 5px ;
+    background-color: rgba(53, 52, 53, 0.644);
+    box-shadow: 6px 6px 12px 8px rgba(99, 98, 98, 0.253);
+   
+
+    animation: leftToRight 1s;
+}
+.containerSearch div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+@keyframes  leftToRight{
+    0% {
+        transform: translateX(-400px)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* RESULT HERO */
+
+.infoHero{
+    margin: 10px;
+    
+  
+}
+.imgHero img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 70%;
+}
+.identifyHero div{
+   display: flex;
+   justify-content: center;
+}
+
+#resultHeroRight{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid rgba(5, 1, 1, 0.39);
+    border-radius: 30px 5px 40px 5px ;
+    background-color: rgba(53, 52, 53, 0.637);
+    box-shadow: 6px 6px 12px 8px rgba(99, 98, 98, 0.253);
+    font-weight: 700;
+    color: white;
+}
+
+#resultHeroRight h4{
+
+    padding: 5px;
+    margin: 10px;
+}
+#allContainerHero{
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(53, 10, 6, 0.349);
+    font-weight: 700;
+    color: white;
+    animation: containerAppear 1s;
+}
+
+@keyframes  containerAppear{
+    0% {
+        transform: translateY(200px)
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#allContainerHero p{
+   text-align: center;
+}
+.biographyHero p{
+    display: flex;
+    justify-content: start!important;
+    text-align: start;
+}
+
+
+
+/* COMPARE SUPERHERO */
+
+.buttonCompare{
+    display: inline-flex;
+    justify-content: center;
+
+}
+#compareHero{
+   width: 35%;
+   margin: 20px;
+   font-weight: 600;
+   box-shadow: 2px 4px 15px 5px black;
+}
+#compareHero:hover{
+   
+    background-color: rgba(194, 145, 20, 0.836);
+ }
+
+
+#heroTable{
+    background-color: rgba(169, 169, 169, 0.432);
+    display: block;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+}
+
+#tableHero tr{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.ButtonDelete{
+    color: rgba(165, 94, 94, 0.774);
+    font-weight: 500;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(80, 80, 80, 0.63);
+}
+.ButtonCalc{
+    color: rgba(131, 177, 109, 0.774);
+    font-weight: 500;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(80, 80, 80, 0.63);
+}
+
+.hidden{
+    display: none;
+}
